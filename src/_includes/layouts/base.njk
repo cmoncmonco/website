@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html
-  class="base font-theme"
+  class="base"
   lang="{{ locale }}"
 >
   <head>
@@ -8,7 +8,54 @@
     {% include "partials/meta.njk" %}
 
   </head>
-  <body>
-    {% block content %}{% endblock %}
+  <body class="body">
+    <div class="container test">
+      {% block content %}{% endblock %}
+      <nav class="language-switcher">
+        {% for lg in site.languages %}
+        {% set activeClass = "language-switcher__item_active" if lg.code == locale else "" %}
+
+        <a href="{{ lg.link }}" class="language-switcher__item {{activeClass}}">{{ lg.locale }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+    <section class="container project-block">
+      <div class="section-header">
+        <div class="section-header__text">
+          <h3 class="heading">{{ project_block.heading }}</h3>
+          <p class="lead lead_muted">{{ project_block.lead }}</p>
+        </div>
+        <img src="/assets/images/project.svg" alt="Illustration about project" class="section-illustration"/>
+      </div>
+      <div class="text-columns">
+        <div class="text-column">
+          <p class="text">{{ project_block.text[0] }}</p>
+          <p class="text">{{ project_block.text[1] }}</p>
+        </div>
+        <div class="text-column">
+          <p class="text">{{ project_block.text[2] }}</p>
+          <p class="text">{{ project_block.text[3] }}</p>
+        </div>
+      </div>
+    </section>
+    <section class="container team-block">
+      <div class="section-header">
+        <div class="section-header__text">
+          <h3 class="heading">{{ team_block.heading }}</h3>
+          <p class="lead">{{ team_block.lead }}</p>
+        </div>
+        <img src="/assets/images/team.svg" alt="Illustration about team" class="section-illustration"/>
+      </div>
+      <div class="text-columns">
+        <div class="text-column">
+          <p class="text">{{ team_block.text[0] }}</p>
+          <p class="text">{{ team_block.text[1] }}</p>
+        </div>
+        <div class="text-column">
+          <p class="text">{{ team_block.text[2] }}</p>
+          <p class="text">{{ team_block.text[3] }}</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

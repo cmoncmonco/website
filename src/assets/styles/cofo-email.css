@@ -3,6 +3,6 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../fonts/CoFo_Sans-Regular.woff2) format('woff2'),
-       url(../fonts/CoFo_Sans-Regular.woff) format('woff');
+  src: url(../fonts/cofo-sans-regular.woff2) format('woff2'),
+       url(../fonts/cofo-sans-regular.woff) format('woff');
 }

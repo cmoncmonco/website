@@ -1,4 +1,21 @@
 {
   "title": "COMMON",
-  "baseUrl": "https://cmoncmon.co/"
+  "baseUrl": "https://cmoncmon.co/",
+  "languages": [
+    {
+      "locale": "en",
+      "code": "en",
+      "link": "/en"
+    },
+    {
+      "locale": "ua",
+      "code": "uk",
+      "link": "/uk"
+    },
+    {
+      "locale": "ru",
+      "code": "ru",
+      "link": "/ru"
+    }
+  ]
 }

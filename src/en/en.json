@@ -1,4 +1,24 @@
 {
     "locale": "en",
-    "text": "Oh, you're from Englando"
+    "text": "Oh, you're from Englando",
+    "project_block": {
+        "heading": "About project",
+        "lead": "COMMON is a volunteer project that helps refugees from different countries learn foreign languages.",
+        "text": [
+            "We started by helping Ukrainian refugees to learn the languages of the countries where they had to move because of the war with Russia. Now we are ready to help all displaced people who were forced to flee from war or natural disasters, regardless of which country they fled from and in which country they ended up.",
+            "We work with volunteer teachers who are ready to teach the language for free for several hours a week. Some of our teachers are professionals in their field, and some are native speakers who want to learn how to teach.",            
+            "Our team of methodologists and teachers supports beginners through workshops, teachers’ guides and additional materials for classes.",
+            "All of our classes are free of charge, online, held individually or in groups of up to 5 people. We form groups depending on the level of knowledge and goals of students, and we make sure that our classes help not only learn the basic language but also quickly navigate in a crisis situation, for example, learn the special vocabulary to prepare for employment or university admission."
+        ]
+    },
+    "team_block": {
+        "heading": "About team",
+        "lead": "There are Russians, Ukrainians, and Belarusians among us, but we strive to ensure that our team becomes more international.",
+        "text": [
+            "There are 15 people in our team, developers, designers, illustrators, methodologists, and coordinators. We are all working remotely and scattered across the UK, Germany, Georgia, Poland and Russia.",
+            "We receive huge support from volunteers, they moderate our Instagram, help us to form groups of students and teachers, and work with the core team on design and communications tasks.",
+            "The volunteers and teachers with whom we are currently working also live in various parts of the world, including China, Argentina, the USA, and India. Despite the fact that we are far from each other, we are united by a desire to help refugees and a common position – we are against war.",
+            "Our entire team is currently working for free. We plan to register as an NGO, and after that, we will be able to launch fundraising to pay for the services that we use for work and pay for the work of at least some of the employees, primarily those who are still in Ukraine or have just left."
+        ]
+    }
 }

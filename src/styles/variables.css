@@ -1,0 +1,18 @@
+:root {
+  --color-black: 17, 17, 17;
+  --color-blue: 65, 111, 225;
+  --color-green: 118, 190, 87;
+  --color-pink: 235, 180, 201;
+  --color-gray: 174, 174, 174;
+  --color-white: 248, 243, 242;
+  --color-brown: 55, 45, 38;
+  --color-orange: 227, 123, 61;
+
+  --gutter: 12px;
+}
+
+@media (min-width: 600px) {
+  :root {
+    --gutter: 24px;
+  }
+}

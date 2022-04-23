@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "CoFo Sans";
+  src: url(/assets/fonts/cofo-sans-regular.woff2) format("woff2"),
+       url(/assets/fonts/cofo-sans-regular.woff) format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
