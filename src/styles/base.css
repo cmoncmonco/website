@@ -362,12 +362,14 @@
 .stat-block {
   display: flex;
   flex-wrap: wrap;
-  margin: 40px 0 32px;
+  margin-top: 40px;
+  margin-bottom: 32px;
 }
 
 @media (min-width: 600px) {
   .stat-block {
-    margin: 72px 0 80px;
+    margin-top: 72px;
+    margin-bottom: 80px;
   }  
 }
 
