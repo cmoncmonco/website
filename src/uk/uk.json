@@ -1,6 +1,9 @@
 {
     "locale": "uk",
-    "text": "О, ви з України",
+    "apply_links": [
+        "https://forms.gle/Q5Qp7iZa2H97Za1i7",
+        "https://forms.gle/HDbrqjnkibkstt3s8"
+    ],
     "intro_block": {
         "title": "Допомагаємо біженцям у вивченні мов",
         "links": [

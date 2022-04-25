@@ -1,11 +1,14 @@
 {
     "locale": "en",
-    "text": "Oh, you're from Englando",
+    "apply_links": [
+        "https://forms.gle/LUk5qCj8XJY25xSq9",
+        "https://forms.gle/apBb7gWtXL5sUnE46"
+    ],
     "intro_block": {
         "title": "Helping refugees to learn languages",
         "links": [
-            "About project",
-            "About team",
+            "What we do",
+            "About us",
             "Contacts"
         ],
         "buttons": [
@@ -20,7 +23,7 @@
         "studying groups"
     ],
     "project_block": {
-        "heading": "About project",
+        "heading": "What we do",
         "lead": "COMMON is a volunteer project that helps refugees from different countries learn foreign languages.",
         "text": [
             "We started by helping Ukrainian refugees to learn the languages of the countries where they had to move because of the war with Russia. Now we are ready to help all displaced people who were forced to flee from war or natural disasters, regardless of which country they fled from and in which country they ended up.",
@@ -30,7 +33,7 @@
         ]
     },
     "team_block": {
-        "heading": "About team",
+        "heading": "About us",
         "lead": "There are Russians, Ukrainians, and Belarusians among us, but we strive to ensure that our team becomes more international.",
         "text": [
             "There are 15 people in our team, developers, designers, illustrators, methodologists, and coordinators. We are all working remotely and scattered across the UK, Germany, Georgia, Poland and Russia.",

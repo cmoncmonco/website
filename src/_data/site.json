@@ -3,14 +3,14 @@
   "baseUrl": "https://cmoncmon.co/",
   "languages": [
     {
-      "locale": "en",
-      "code": "en",
-      "link": "/en"
-    },
-    {
       "locale": "ua",
       "code": "uk",
       "link": "/uk"
+    },
+    {
+      "locale": "en",
+      "code": "en",
+      "link": "/en"
     },
     {
       "locale": "ru",
@@ -19,9 +19,14 @@
     }
   ],
   "stats": [
-    "720",
-    "408",
-    "12",
-    ">40"
-  ]
+    "590",
+    "452",
+    "20",
+    "120"
+  ],
+  "social_links": {
+    "instagram": "https://www.instagram.com/cmoncmon.co/",
+    "telegram": "https://t.me/cmoncmon_bot",
+    "email": "mailto:hello@cmoncmon.co"
+  }
 }

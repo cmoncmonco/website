@@ -1,6 +1,9 @@
 {
     "locale": "ru",
-    "text": "О, вы из России",
+    "apply_links": [
+        "https://forms.gle/Q5Qp7iZa2H97Za1i7",
+        "https://forms.gle/TEgZ3hRM82QFipCTA"
+    ],
     "intro_block": {
         "title": "Помогаем беженцам в изучении языков",
         "links": [
