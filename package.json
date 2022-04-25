@@ -7,7 +7,7 @@
     "start": "npm-run-all --parallel serve:*",
     "serve:css": "postcss -o src/assets/styles/main.css -w src/styles/index.css",
     "serve:html": "eleventy --serve",
-    "build": "ODE_ENV=development npm-run-all build:*",
+    "build": "NODE_ENV=development npm-run-all build:*",
     "build:css": "postcss -o src/assets/styles/main.css src/styles/index.css",
     "build:html": "eleventy"
   },
