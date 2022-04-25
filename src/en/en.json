@@ -1,6 +1,24 @@
 {
     "locale": "en",
     "text": "Oh, you're from Englando",
+    "intro_block": {
+        "title": "Helping refugees to learn languages",
+        "links": [
+            "About project",
+            "About team",
+            "Contacts"
+        ],
+        "buttons": [
+            "Join as a teacher",
+            "Join as a student"
+        ]
+    },
+    "stat_block": [
+        "teachers",
+        "processed applications",
+        "languages",
+        "studying groups"
+    ],
     "project_block": {
         "heading": "About project",
         "lead": "COMMON is a volunteer project that helps refugees from different countries learn foreign languages.",

@@ -9,10 +9,19 @@
   --color-orange: 227, 123, 61;
 
   --gutter: 12px;
+
+  --switcher-margin: 2px 
 }
 
 @media (min-width: 600px) {
   :root {
-    --gutter: 24px;
+    --gutter: 12px;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  :root {
+    --switcher-margin: 6px 
   }
 }

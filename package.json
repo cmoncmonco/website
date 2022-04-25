@@ -31,5 +31,8 @@
     "postcss-csso": "^6.0.0",
     "postcss-import": "^14.1.0",
     "prettier": "2.6.2"
-  }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
