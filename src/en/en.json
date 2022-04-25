@@ -4,13 +4,13 @@
         "https://forms.gle/LUk5qCj8XJY25xSq9",
         "https://forms.gle/apBb7gWtXL5sUnE46"
     ],
+    "links": [
+        "What we do",
+        "About us",
+        "Contacts"
+    ],
     "intro_block": {
         "title": "Helping refugees to learn languages",
-        "links": [
-            "What we do",
-            "About us",
-            "Contacts"
-        ],
         "buttons": [
             "Join as a teacher",
             "Join as a student"

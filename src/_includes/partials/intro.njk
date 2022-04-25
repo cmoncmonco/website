@@ -1,7 +1,11 @@
 <div class="container intro-block">
   <div class="row">
-    <div class="column">
-      <img src="/assets/images/logo.svg" alt="Logo" class="logo"/>
+    <div class="column header">
+      <svg class="logo"><use href="#logo"></svg>
+      <div class="menu">
+        <svg class="menu__icon menu__icon_open"><use href="#menu"></svg>
+        <svg class="menu__icon menu__icon_close"><use href="#close"></svg>
+      </div>
     </div>
     <div class="column intro-heading">
       <h1 class="heading">{{ intro_block.title }}</h1>
@@ -19,9 +23,9 @@
     </div>
     <div class="column intro-links">
       <div class="">
-        <a href="#project" class="intro-link">{{ intro_block.links[0] }}</a>
-        <a href="#team" class="intro-link">{{ intro_block.links[1] }}</a>
-        <a href="#contacts" class="intro-link">{{ intro_block.links[2] }}</a>
+        <a href="#project" class="intro-link">{{ links[0] }}</a>
+        <a href="#team" class="intro-link">{{ links[1] }}</a>
+        <a href="#contacts" class="intro-link">{{ links[2] }}</a>
       </div>
       <div class="">
         <a href="{{ site.social_links.instagram }}" class="intro-link">Instagram</a>

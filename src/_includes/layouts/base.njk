@@ -11,7 +11,7 @@
   <body class="body">
     {% include "partials/svg-sprite.njk" %}
 
-    {% include "partials/language.njk" %}
+    {% include "partials/mobile-menu.njk" %}
     
     {% include "partials/intro.njk" %}
 
@@ -20,5 +20,29 @@
     {% include "partials/project.njk" %}
 
     {% include "partials/team.njk" %}
+
+    {% include "partials/footer.njk" %}
+
+    <script>
+      const showMenu = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        document.body.classList.add("menu-is-open");
+        document.getElementsByClassName("mobile-menu")[0].classList.add("mobile-menu_active");
+      }
+
+      const hideMenu = () => {
+        document.body.classList.remove("menu-is-open");
+        document.getElementsByClassName("mobile-menu")[0].classList.remove("mobile-menu_active");
+      };
+
+      const openButton = document.getElementsByClassName("menu__icon_open")[0];
+      const closeButton = document.getElementsByClassName("menu__icon_close")[0];
+      const navLinks = document.querySelectorAll('.mobile-link_internal');
+
+      openButton.addEventListener("click", showMenu);
+      closeButton.addEventListener("click", hideMenu);
+      navLinks.forEach((link, index) => { link.addEventListener('click', hideMenu) });
+    </script>
+
   </body>
 </html>

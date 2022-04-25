@@ -1,0 +1,28 @@
+<nav class="container mobile-menu-block">
+  <div class="language-block">
+    <svg class="language-icon"><use href="#globe"></svg>
+    <div class="language-switcher">
+      {% for lg in site.languages %}
+      {% set activeClass = "language-switcher__item_active" if lg.code == locale else "" %}
+
+      <a href="{{ lg.link }}" class="language-switcher__item {{activeClass}}">{{ lg.locale }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <div class="mobile-links">
+      <a href="#project" class="mobile-link mobile-link_internal">{{ links[0] }}</a>
+      <a href="#team" class="mobile-link mobile-link_internal">{{ links[1] }}</a>
+      <a href="#contacts" class="mobile-link mobile-link_internal">{{ links[2] }}</a>
+    </div>
+    <hr class="separator" />
+    <div class="links-w-illustration">
+      <div class="mobile-links">
+        <a href="{{ site.social_links.instagram }}" class="mobile-link">Instagram</a>
+        <a href="{{ site.social_links.telegram }}" class="mobile-link">Telegram</a>
+        <a href="{{ site.social_links.email }}" class="mobile-link">Email<svg class="mobile-link__icon"><use href="#mail" /></svg></a>
+      </div>
+      <img src="/assets/images/menu.svg" class="illustration"/>
+    </div>
+  </div>
+</nav>
