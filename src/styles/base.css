@@ -210,7 +210,7 @@
   }
 }
 
-.link {
+.button-link {
   padding: 16px 0;
   margin-bottom: 4px;
   text-align: center;
@@ -220,21 +220,21 @@
   background-color: rgb(var(--color-white));
   border-radius: 16px;
   text-decoration: none;
-  transition: .1s ease-in-out;
+  transition: color .1s ease-in-out, background-color .1s ease-in-out;
 }
 
-.link:hover {
+.button-link:hover {
   color: rgb(var(--color-white));
   background-color: rgba(var(--color-white), 0.2);
 }
 
-.link_variant {
+.button-link_variant {
   color: rgb(var(--color-white));
   background-color: rgb(var(--color-green));
 }
 
 @media (min-width: 600px) {
-  .link {
+  .button-link {
     font-size: 24px;
   }
 }
