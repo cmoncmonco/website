@@ -7,7 +7,7 @@
     "start": "npm-run-all --parallel serve:*",
     "serve:css": "postcss -o src/assets/styles/main.css -w src/styles/index.css",
     "serve:html": "eleventy --serve",
-    "build": "npm-run-all build:*",
+    "build": "npm-run-all NODE_ENV=development build:*",
     "build:css": "postcss -o src/assets/styles/main.css src/styles/index.css",
     "build:html": "eleventy"
   },
@@ -31,7 +31,8 @@
     "postcss-cli": "^9.1.0",
     "postcss-csso": "^6.0.0",
     "postcss-import": "^14.1.0",
-    "prettier": "2.6.2"
+    "prettier": "2.6.2",
+    "terser": "^5.12.1"
   },
   "browserslist": [
     "defaults"

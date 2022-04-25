@@ -1,0 +1,31 @@
+<footer class="container footer">
+  <div class="row footer-navigation">
+    <div class="column">
+      <svg class="logo"><use href="#logo"></svg>
+    </div>
+    <div class="column footer-column">
+      <span class="footer-links">
+        <a href="{{ site.social_links[0] }}" class="footer-link">Instagram</a>, <a href="{{ site.social_links[1] }}" class="footer-link">Telegram bot</a>, <a href="{{ site.social_links[2] }}" class="footer-link">Email<svg class="footer-link__icon"><use href="#mail" /></svg></a>
+      </span>
+    </div>
+  </div>
+  <div class="footer-navigation-mobile">
+    <span class="footer-links-mobile">
+      <a href="{{ site.social_links[0] }}" class="footer-link">Instagram</a>
+      <a href="{{ site.social_links[1] }}" class="footer-link">Telegram bot</a>
+      <a href="{{ site.social_links[2] }}" class="footer-link">Email<svg class="footer-link__icon"><use href="#mail" /></svg></a>
+    </span>
+    <svg class="clip clip_mobile"><use href="#clip"></svg>
+  </div>
+  <div>
+    <div class="row copyright">
+      <div class="column">
+        <span>Сommon Language © 2022</span>
+      </div>
+      <div class="column footer-column">
+        <span>{{ thanks | safe }} <a href="https://contrastfoundry.com/" target="_blank">Contrast Foundry</a></span>
+        <svg class="clip"><use href="#clip"></svg>
+      </div>
+    </div>
+  </div>
+</footer>
