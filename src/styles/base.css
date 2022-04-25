@@ -91,7 +91,7 @@
 .intro-block {
   padding-top: 32px;
   padding-bottom: 44px;
-  border-radius: var(--gutter);
+  border-radius: calc(var(--gutter) * 2);
   background-color: rgb(var(--color-blue));
 }
 
@@ -117,7 +117,7 @@
 
 .intro-heading {
   flex: 3;
-  margin-top: 32px;
+  margin-top: 28px;
 }
 
 @media (min-width: 1000px) {
