@@ -4,13 +4,6 @@
 
 [[redirects]]
   from = "/"
-  to = "/uk"
-  status = 301
-  force = true
-  conditions = {Language = ["uk"]}
-
-[[redirects]]
-  from = "/"
   to = "/ru"
   status = 301
   force = true
@@ -22,11 +15,6 @@
   status = 301
   force = true
   conditions = {Language = ["en"]}
-
-[[redirects]]
-  from = "/"
-  to = "/uk"
-  status = 302
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.

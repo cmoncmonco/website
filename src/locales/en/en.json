@@ -1,0 +1,45 @@
+{
+    "locale": "en",
+    "apply_links": [
+        "https://forms.gle/LUk5qCj8XJY25xSq9",
+        "https://forms.gle/apBb7gWtXL5sUnE46"
+    ],
+    "links": [
+        "What we do",
+        "About us",
+        "Contacts"
+    ],
+    "intro_block": {
+        "title": "Helping refugees to&nbsp;learn languages",
+        "buttons": [
+            "Join as a teacher",
+            "Join as a student"
+        ]
+    },
+    "stat_block": [
+        "teachers",
+        "processed applications",
+        "languages",
+        "studying groups"
+    ],
+    "project_block": {
+        "heading": "What we do",
+        "lead": "COMMON is&nbsp;a&nbsp;volunteer project that helps refugees from different countries learn foreign languages.",
+        "text": [
+            "We&nbsp;started by&nbsp;helping Ukrainian refugees to&nbsp;learn the languages of&nbsp;the countries where they had to&nbsp;move because of&nbsp;the war with Russia. Now we&nbsp;are ready to&nbsp;help all displaced people who were forced to&nbsp;flee from war or&nbsp;natural disasters, regardless of&nbsp;which country they fled from and in&nbsp;which country they ended&nbsp;up.",
+            "We&nbsp;work with volunteer teachers who are ready to&nbsp;teach the language for free for several hours a&nbsp;week. Some of&nbsp;our teachers are professionals in&nbsp;their field, and some are native speakers who want to&nbsp;learn how to&nbsp;teach.", 
+            "Our team of&nbsp;methodologists and teachers supports beginners through workshops, teachers&rsquo; guides and additional materials for classes.",
+            "All of&nbsp;our classes are free of&nbsp;charge, online, held individually or&nbsp;in&nbsp;groups of&nbsp;up&nbsp;to&nbsp;5&nbsp;people. We&nbsp;form groups depending on&nbsp;the level of&nbsp;knowledge and goals of&nbsp;students, and we&nbsp;make sure that our classes help not only learn the basic language but also quickly navigate in&nbsp;a&nbsp;crisis situation, for example, learn the special vocabulary to&nbsp;prepare for employment or&nbsp;university admission."
+        ]
+    },
+    "team_block": {
+        "heading": "About us",
+        "lead": "There are Russians, Ukrainians, and Belarusians among&nbsp;us, but we&nbsp;strive to&nbsp;ensure that our team becomes more international.",
+        "text": [
+            "There are 15&nbsp;people in&nbsp;our team, developers, designers, illustrators, methodologists, and coordinators. We&nbsp;are all working remotely and scattered across the UK, Germany, Georgia, Poland and Russia.",
+            "We&nbsp;receive huge support from volunteers, they moderate our Instagram, help&nbsp;us to&nbsp;form groups of&nbsp;students and teachers, and work with the core team on&nbsp;design and communications tasks.",
+            "The volunteers and teachers with whom we&nbsp;are currently working also live in&nbsp;various parts of&nbsp;the world, including China, Argentina, the USA, and India. Despite the fact that we&nbsp;are far from each other, we&nbsp;are united by&nbsp;a&nbsp;desire to&nbsp;help refugees and a&nbsp;common position&nbsp;&mdash; we&nbsp;are against war.",
+            "Our entire team is&nbsp;currently working for free. We&nbsp;plan to&nbsp;register as&nbsp;an&nbsp;NGO, and after that, we&nbsp;will be&nbsp;able to&nbsp;launch fundraising to&nbsp;pay for the services that we&nbsp;use for work and pay for the work of&nbsp;at&nbsp;least some of&nbsp;the employees, primarily those who are still in&nbsp;Ukraine or&nbsp;have just left."
+        ]
+    }
+}
