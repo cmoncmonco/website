@@ -1,19 +1,21 @@
-<section class="container project-block">
-  <div class="section-header">
-    <div class="section-header__text" id="project">
-      <h3 class="heading">{{ project_block.heading | safe }}</h3>
-      <p class="lead lead_muted">{{ project_block.lead | safe }}</p>
+<section class="project-block">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-header__text" id="project">
+        <h3 class="heading">{{ project_block.heading | safe }}</h3>
+        <p class="lead lead_muted">{{ project_block.lead | safe }}</p>
+      </div>
+      <img src="/assets/images/project.svg" alt="Illustration about project" class="section-illustration"/>
     </div>
-    <img src="/assets/images/project.svg" alt="Illustration about project" class="section-illustration"/>
-  </div>
-  <div class="row">
-    <div class="column">
-      <p class="text">{{ project_block.text[0] | safe }}</p>
-      <p class="text">{{ project_block.text[1] | safe }}</p>
-    </div>
-    <div class="column">
-      <p class="text">{{ project_block.text[2] | safe }}</p>
-      <p class="text">{{ project_block.text[3] | safe }}</p>
+    <div class="row">
+      <div class="column">
+        <p class="text">{{ project_block.text[0] | safe }}</p>
+        <p class="text">{{ project_block.text[1] | safe }}</p>
+      </div>
+      <div class="column">
+        <p class="text">{{ project_block.text[2] | safe }}</p>
+        <p class="text">{{ project_block.text[3] | safe }}</p>
+      </div>
     </div>
   </div>
 </section>

@@ -300,7 +300,7 @@
 }
 
 .welcome {
-  margin: 32px calc(var(--gutter) * -1) 24px;
+  margin: 32px 0 24px;
   height: 115px;
   background-image: url(/assets/images/welcome-mobile.svg);
   background-position: center;
@@ -323,10 +323,11 @@
 
 @media (min-width: 1000px) {
   .welcome {
-    margin: 48px calc(var(--gutter) * -4) 40px;
+    margin: 48px 0 40px;
     height: 322px;
   }
 }
+
 
 .button-link {
   padding: 16px 0;

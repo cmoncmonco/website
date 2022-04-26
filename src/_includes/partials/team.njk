@@ -1,19 +1,21 @@
-<section class="container team-block">
-  <div class="section-header">
-    <div class="section-header__text" id="team">
-      <h3 class="heading">{{ team_block.heading }}</h3>
-      <p class="lead">{{ team_block.lead | safe }}</p>
+<section class="team-block">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-header__text" id="team">
+        <h3 class="heading">{{ team_block.heading }}</h3>
+        <p class="lead">{{ team_block.lead | safe }}</p>
+      </div>
+      <img src="/assets/images/team.svg" alt="Illustration about team" class="section-illustration"/>
     </div>
-    <img src="/assets/images/team.svg" alt="Illustration about team" class="section-illustration"/>
-  </div>
-  <div class="row">
-    <div class="column">
-      <p class="text">{{ team_block.text[0] | safe }}</p>
-      <p class="text">{{ team_block.text[1] | safe }}</p>
-    </div>
-    <div class="column">
-      <p class="text">{{ team_block.text[2] | safe }}</p>
-      <p class="text">{{ team_block.text[3] | safe }}</p>
+    <div class="row">
+      <div class="column">
+        <p class="text">{{ team_block.text[0] | safe }}</p>
+        <p class="text">{{ team_block.text[1] | safe }}</p>
+      </div>
+      <div class="column">
+        <p class="text">{{ team_block.text[2] | safe }}</p>
+        <p class="text">{{ team_block.text[3] | safe }}</p>
+      </div>
     </div>
   </div>
 </section>

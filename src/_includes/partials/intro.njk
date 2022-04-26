@@ -1,42 +1,46 @@
-<div class="container intro-block">
-  <div class="row">
-    <div class="column header">
-      <svg class="logo"><use href="#logo"></svg>
-      <div class="menu">
-        <svg class="menu__icon menu__icon_open"><use href="#menu"></svg>
-        <svg class="menu__icon menu__icon_close"><use href="#close"></svg>
+<div class="intro-block">
+  <div class="container">
+    <div class="row">
+      <div class="column header">
+        <svg class="logo"><use href="#logo"></svg>
+        <div class="menu">
+          <svg class="menu__icon menu__icon_open"><use href="#menu"></svg>
+          <svg class="menu__icon menu__icon_close"><use href="#close"></svg>
+        </div>
+      </div>
+      <div class="column intro-heading">
+        <h1 class="heading">{{ intro_block.title | safe }}</h1>
       </div>
     </div>
-    <div class="column intro-heading">
-      <h1 class="heading">{{ intro_block.title | safe }}</h1>
-    </div>
-  </div>
-  <nav class="row desktop-navigation">
-    <div class="column intro-switcher">
-      <nav class="language-switcher ">
-        {% for lg in site.languages %}
-        {% set activeClass = "language-switcher__item_active" if lg.code == locale else "" %}
+    <nav class="row desktop-navigation">
+      <div class="column intro-switcher">
+        <nav class="language-switcher ">
+          {% for lg in site.languages %}
+          {% set activeClass = "language-switcher__item_active" if lg.code == locale else "" %}
 
-        <a href="{{ lg.link }}" class="language-switcher__item {{activeClass}}">{{ lg.locale }}</a>
-        {% endfor %}
-      </nav>
-    </div>
-    <div class="column intro-links">
-      <div class="">
-        <a href="#project" class="intro-link">{{ links[0] }}</a>
-        <a href="#team" class="intro-link">{{ links[1] }}</a>
-        <a href="#contacts" class="intro-link">{{ links[2] }}</a>
+          <a href="{{ lg.link }}" class="language-switcher__item {{activeClass}}">{{ lg.locale }}</a>
+          {% endfor %}
+        </nav>
       </div>
-      <div class="">
-        <a href="{{ site.social_links.instagram }}" class="intro-link">Instagram</a>
-        <a href="{{ site.social_links.telegram }}" class="intro-link">Telegram</a>
-        <a href="{{ site.social_links.email }}" class="intro-link">Email<svg class="intro-link__icon"><use href="#mail" /></svg></a>
+      <div class="column intro-links">
+        <div class="">
+          <a href="#project" class="intro-link">{{ links[0] }}</a>
+          <a href="#team" class="intro-link">{{ links[1] }}</a>
+          <a href="#contacts" class="intro-link">{{ links[2] }}</a>
+        </div>
+        <div class="">
+          <a href="{{ site.social_links.instagram }}" class="intro-link">Instagram</a>
+          <a href="{{ site.social_links.telegram }}" class="intro-link">Telegram</a>
+          <a href="{{ site.social_links.email }}" class="intro-link">Email<svg class="intro-link__icon"><use href="#mail" /></svg></a>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
   <div class="welcome"></div>
-  <div class="row">
-    <a href="{{ apply_links[0] }}" class="column button-link">{{ intro_block.buttons[0] }}</a>
-    <a href="{{ apply_links[1] }}" class="column button-link button-link_variant">{{ intro_block.buttons[1] }}</a>
+  <div class="container">
+    <div class="row">
+      <a href="{{ apply_links[0] }}" class="column button-link">{{ intro_block.buttons[0] }}</a>
+      <a href="{{ apply_links[1] }}" class="column button-link button-link_variant">{{ intro_block.buttons[1] }}</a>
+    </div>
   </div>
 </div>
