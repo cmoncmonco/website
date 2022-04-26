@@ -324,7 +324,19 @@
 @media (min-width: 1000px) {
   .welcome {
     margin: 48px 0 40px;
-    height: 322px;
+    height: 320px;
+  }
+}
+
+@media (max-height: 800px) and (min-width: 1000px) {
+  .welcome {
+    height: 300px;
+  }
+}
+
+@media (max-height: 700px) and (min-width: 1000px) {
+  .welcome {
+    height: 250px;
   }
 }
 
