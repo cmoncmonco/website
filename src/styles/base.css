@@ -305,6 +305,7 @@
   background-image: url(/assets/images/welcome-mobile.svg);
   background-position: center;
   background-size: auto 100%;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 400px) {
