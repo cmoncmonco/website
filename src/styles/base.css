@@ -612,7 +612,7 @@
 
 @media (min-width: 1400px) {
   .footer-column {
-    flex: 2;
+    flex: 1;
   }
 }
 
