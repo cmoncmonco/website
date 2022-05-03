@@ -3,6 +3,7 @@ node_modules
 
 # build artefacts
 dist
+.cache
 src/assets/styles/main.css
 
 # secrets and errors

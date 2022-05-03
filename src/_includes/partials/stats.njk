@@ -1,18 +1,18 @@
-<div class="container stat-block">
+<div class="container stat-block">{{ text }}
   <dl class="stat">
-    <dd class="stat__value">{{ site.stats[0]}}</dd>
-    <dt class="stat__label">{{ stat_block[0] }}</dt>
+    <dd class="stat__value">{{ stats[0] }}</dd>
+    <dt class="stat__label">{{ pluralize(stat_block[0], stats[0]) }}</dt>
   </dl>
   <dl class="stat">
-    <dd class="stat__value">{{ site.stats[1]}}</dd>
-    <dt class="stat__label">{{ stat_block[1] }}</dt>
+    <dd class="stat__value">{{ stats[1] }}</dd>
+    <dt class="stat__label">{{ pluralize(stat_block[1], stats[1]) }}</dt>
   </dl>
   <dl class="stat">
-    <dd class="stat__value">{{ site.stats[2]}}</dd>
-    <dt class="stat__label">{{ stat_block[2] }}</dt>
+    <dd class="stat__value">{{ stats[3] }}</dd>
+    <dt class="stat__label">{{ pluralize(stat_block[2], stats[3]) }}</dt>
   </dl>
   <dl class="stat">
-    <dd class="stat__value">{{ site.stats[3]}}</dd>
-    <dt class="stat__label">{{ stat_block[3] }}</dt>
+    <dd class="stat__value">{{ stats[2] }}</dd>
+    <dt class="stat__label">{{ pluralize(stat_block[3], stats[2]) }}</dt>
   </dl>
 </div>

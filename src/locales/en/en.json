@@ -18,10 +18,10 @@
         ]
     },
     "stat_block": [
-        "teachers",
-        "processed applications",
-        "languages",
-        "studying groups"
+        ["teacher", "teachers"],
+        ["processed application", "processed applications"],
+        ["language", "languages"],
+        ["studying group", "studying groups"]
     ],
     "project_block": {
         "heading": "What we do",

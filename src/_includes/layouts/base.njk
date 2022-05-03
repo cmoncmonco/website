@@ -23,6 +23,8 @@
 
     {% include "partials/footer.njk" %}
 
+    {{ content | safe }}
+
     <script>
       const showMenu = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
