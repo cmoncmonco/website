@@ -1,5 +1,5 @@
-<nav class="container mobile-menu-block">
-  <div class="language-block">
+<div class="container overlay-block">
+  <nav class="language-block">
     <svg class="language-icon"><use href="#globe"></svg>
     <div class="language-switcher">
       {% for lg in site.languages %}
@@ -8,8 +8,8 @@
       <a href="{{ lg.link }}" class="language-switcher__item {{activeClass}}">{{ lg.locale }}</a>
       {% endfor %}
     </div>
-  </div>
-  <div class="mobile-menu">
+  </nav>
+  <nav class="mobile-menu">
     <div class="mobile-links">
       <a href="#project" class="mobile-link mobile-link_internal">{{ links[0] }}</a>
       <a href="#team" class="mobile-link mobile-link_internal">{{ links[1] }}</a>
@@ -24,5 +24,16 @@
       </div>
       <img src="/assets/images/menu.svg" class="illustration"/>
     </div>
+  </nav>
+  <div class="dialog-container" id="dialog" role="dialog" aria-labelledby="dialogTitle" aria-describedby="dialogDescription">
+    <div class="dialog-overlay"></div>
+    <div class="dialog-content">
+      <div>
+        <h1 id="dialogTitle" class="heading dialog__heading">{{ dialog.heading | safe}}</h1>
+        <p id="dialogDescription" class="dialog__text">{{ dialog.text | safe}}</p>
+        <img src="/assets/images/sad.svg" class="dialog__illustration"/>
+      </div>
+      <button id="closeDialog" aria-label="close" class="button-link dialog__button">Ок</button>
+    </div>
   </div>
-</nav>
+</div>
