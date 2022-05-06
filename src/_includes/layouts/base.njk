@@ -11,7 +11,7 @@
   <body class="body">
     {% include "partials/svg-sprite.njk" %}
 
-    {% include "partials/mobile-menu.njk" %}
+    {% include "partials/overlay.njk" %}
     
     {% include "partials/intro.njk" %}
 
@@ -26,24 +26,47 @@
     {{ content | safe }}
 
     <script>
+      const openMenuButton = document.getElementsByClassName("menu__icon_open")[0];
+      const closeMenuButton = document.getElementsByClassName("menu__icon_close")[0];
+      const navLinks = document.querySelectorAll('.mobile-link_internal');
+
       const showMenu = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
-        document.body.classList.add("menu-is-open");
+        document.body.classList.add("menu-active");
         document.getElementsByClassName("mobile-menu")[0].classList.add("mobile-menu_active");
       }
 
       const hideMenu = () => {
-        document.body.classList.remove("menu-is-open");
+        document.body.classList.remove("menu-active");
         document.getElementsByClassName("mobile-menu")[0].classList.remove("mobile-menu_active");
       };
 
-      const openButton = document.getElementsByClassName("menu__icon_open")[0];
-      const closeButton = document.getElementsByClassName("menu__icon_close")[0];
-      const navLinks = document.querySelectorAll('.mobile-link_internal');
-
-      openButton.addEventListener("click", showMenu);
-      closeButton.addEventListener("click", hideMenu);
+      openMenuButton.addEventListener("click", showMenu);
+      closeMenuButton.addEventListener("click", hideMenu);
       navLinks.forEach((link, index) => { link.addEventListener('click', hideMenu) });
+
+      const openDialogButton = document.getElementById("openDialog");
+      const closeDialogButton = document.getElementById("closeDialog");
+      const dialog = document.getElementById('dialog');
+
+      const closeOnESC = (e) => {
+        if (e.keyCode === 27) hideDialog();
+      }
+
+      const openDialog = () => {
+        document.body.classList.add("dialog-active");
+        dialog.setAttribute('data-open', '');
+        document.addEventListener('keydown', closeOnESC);
+      }
+
+      const closeDialog = () => {
+        document.body.classList.remove("dialog-active");
+        dialog.removeAttribute('data-open');
+        document.removeEventListener('keydown', closeOnESC);
+      }
+
+      openDialogButton.addEventListener("click", openDialog);
+      closeDialogButton.addEventListener("click", closeDialog);
     </script>
 
 

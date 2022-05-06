@@ -43,5 +43,9 @@
             "Our entire team is&nbsp;currently working for free. We&nbsp;plan to&nbsp;register as&nbsp;an&nbsp;NGO, and after that, we&nbsp;will be&nbsp;able to&nbsp;launch fundraising to&nbsp;pay for the services that we&nbsp;use for work and pay for the work of&nbsp;at&nbsp;least some of&nbsp;the employees, primarily those who are still in&nbsp;Ukraine or&nbsp;have just left."
         ]
     },
-    "thanks": "CoFo Sans font provided&nbsp;by"
+    "thanks": "CoFo Sans font provided&nbsp;by",
+    "dialog": {
+        "heading": "We&nbsp;temporarily stop processing the applications from students.",
+        "text": "Don&rsquo;t be&nbsp;sad, we&nbsp;will make an&nbsp;announcement in&nbsp;<a href='https://www.instagram.com/cmoncmon.co/'>Instagram</a> as&nbsp;soon as&nbsp;we&nbsp;will be&nbsp;ready to&nbsp;accept new students"
+    }
 }
