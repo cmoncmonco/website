@@ -30,7 +30,7 @@
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
-  for = "/assets"
+  for = "/assets/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"
 
