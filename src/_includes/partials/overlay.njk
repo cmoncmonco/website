@@ -25,7 +25,8 @@
       <img src="/assets/images/menu.svg" class="illustration"/>
     </div>
   </nav>
- {# <div class="dialog-container" id="dialog" role="dialog" aria-labelledby="dialogTitle" aria-describedby="dialogDescription">
+ {% if site.stopEnrolling %}
+  <div class="dialog-container" id="dialog" role="dialog" aria-labelledby="dialogTitle" aria-describedby="dialogDescription">
     <div class="dialog-overlay"></div>
     <div class="dialog-content">
       <div>
@@ -35,5 +36,6 @@
       </div>
       <button id="closeDialog" aria-label="close" class="button-link dialog__button">Ок</button>
     </div>
-  </div> #}
+  </div>
+  {% endif %}
 </div>

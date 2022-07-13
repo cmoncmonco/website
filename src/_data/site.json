@@ -1,6 +1,7 @@
 {
   "title": "COMMON",
   "baseUrl": "https://cmoncmon.co",
+  "stopEnrolling": true,
   "languages": [
     {
       "locale": "ua",
@@ -17,12 +18,6 @@
       "code": "ru",
       "link": "/ru"
     }
-  ],
-  "stats": [
-    "590",
-    "452",
-    "20",
-    "120"
   ],
   "social_links": {
     "instagram": "https://www.instagram.com/cmoncmon.co/",
