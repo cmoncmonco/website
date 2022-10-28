@@ -592,6 +592,14 @@
   }
 }
 
+.project-block a {
+  color: rgb(var(--color-blue));
+}
+
+.project-block a:hover {
+  text-decoration: none;
+}
+
 .team-block {
   padding-top: 36px;
   padding-bottom: 28px;
@@ -605,6 +613,14 @@
     padding-top: 56px;
     padding-bottom: 44px;
   }
+}
+
+.team-block a {
+  color: rgb(var(--color-pink));
+}
+
+.team-block a:hover {
+  text-decoration: none;
 }
 
 .stat-block {
