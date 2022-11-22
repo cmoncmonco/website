@@ -689,7 +689,7 @@
 
 @media (min-width: 1400px) {
   .stat {
-    flex: 25%;
+    flex: 33%;
     margin-bottom: 0;
   }
 }
